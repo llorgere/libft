@@ -6,7 +6,7 @@
 #    By: llorgere <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/04/12 14:11:34 by llorgere          #+#    #+#              #
-#    Updated: 2017/05/02 18:27:19 by llorgere         ###   ########.fr        #
+#    Updated: 2017/05/02 19:11:34 by llorgere         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,7 +65,8 @@ SRC = ft_memset.c \
 	  ft_putnbr_fd.c \
 	  ft_lstnew.c \
 	  ft_lstdelone.c \
-	  ft_lstdel.c
+	  ft_lstdel.c \
+	  ft_lstadd.c
 
 OBJ = $(SRC:.c=.o)
 CC = gcc
